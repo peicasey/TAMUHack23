@@ -16,7 +16,7 @@ function App() {
         Hello world!
       </h1>
 
-      <Navbar />
+      
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>}/>
