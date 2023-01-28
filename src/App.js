@@ -1,8 +1,24 @@
+import Navbar from "./components/Navbar";
+import Login from "./components/Login";
+import Add_Bags from "./components/New_Trip";
+import Add_Items from "./components/Add_Items";
+import Home from "./components/Home";
+import Result from "./components/Result";
+
 import React from 'react';
 
 function App() {
   const value = 'World';
-  return <div>Hello this is an edit YUQIAN {value}</div>;
+  return (
+    <div>
+      <Navbar />
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+      </Routes>
+      <Home />
+    </div>
+  );
 
 }
 
