@@ -1,0 +1,67 @@
+{
+"american_airlines":{
+    "name":"American Airlines",
+    "resitricted_redirect":"https://www.aa.com/i18n/travel-info/baggage/restricted-items.jsp",
+    "baggage_redirect":"https://www.aa.com/i18n/travel-info/baggage/baggage.jsp",
+    "checked_dimension": 62,
+    "carry_on_sideA": 22,
+    "carry_on_sideB": 14,
+    "carry_on_sideC": 9,
+    "personal_sideA": 18,
+    "personal_sideB": 14,
+    "personal_sideC": 8
+},
+
+"united_airlines":{
+    "name":"United Airlines",
+    "resitricted_redirect":"https://www.united.com/ual/en/us/fly/travel/baggage/dangerous.html",
+    "baggage_redirect":"https://www.united.com/ual/en/us/fly/travel/baggage.html",
+    "checked_dimension": 62,
+    "carry_on_sideA": 22,
+    "carry_on_sideB": 14,
+    "carry_on_sideC": 9,
+    "personal_sideA": 17,
+    "personal_sideB": 10,
+    "personal_sideC": 9
+},
+
+"southwest_airlines":{
+    "name":"Southwest Airlines",
+    "resitricted_redirect":"https://www.southwest.com/help/baggage/special-baggage-sports-equipment",
+    "baggage_redirect":"https://www.southwest.com/help/baggage?clk=GFOOTER-CUSTOMER-BAGS",
+    "checked_dimension": 62,
+    "carry_on_sideA": 24,
+    "carry_on_sideB": 16,
+    "carry_on_sideC": 10,
+    "personal_sideA": 16.25,
+    "personal_sideB": 13.5,
+    "personal_sideC": 8
+},
+
+"spirit_airlines":{
+    "name":"Spirit Airlines",
+    "resitricted_redirect":"https://customersupport.spirit.com/en-us/category/article/KA-01146",
+    "baggage_redirect":"https://customersupport.spirit.com/en-us/category/article/KA-01143",
+    "checked_dimension": 62,
+    "carry_on_sideA": 22,
+    "carry_on_sideB": 18,
+    "carry_on_sideC": 10,
+    "personal_sideA": 18,
+    "personal_sideB": 14,
+    "personal_sideC": 8
+},
+
+"delta_airlines":{
+    "name":"Delta Air Lines",
+    "resitricted_redirect":"https://www.delta.com/us/en/baggage/prohibited-or-restricted-items/overview",
+    "baggage_redirect":"https://www.delta.com/us/en/baggage/overview",
+    "checked_dimension": 62,
+    "carry_on_sideA": 22,
+    "carry_on_sideB": 14,
+    "carry_on_sideC": 9,
+    "personal_sideA": "N/A",
+    "personal_sideB": "N/A",
+    "personal_sideC": "N/A"
+}
+
+}
