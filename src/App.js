@@ -13,7 +13,7 @@ function App() {
     
     <div>
       <h1 className="intro">
-        Hello world!
+        Hello {value}!
       </h1>
 
       
