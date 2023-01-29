@@ -6,7 +6,7 @@ const CollapseTxt = (blurb) => {
   return (
     <div>
       <Button
-        color="primary"
+        color="info"
         onClick={function noRefCheck(){}}
         style={{
           marginBottom: '1rem'
