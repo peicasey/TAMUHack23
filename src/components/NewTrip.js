@@ -60,6 +60,16 @@ const NewTrip = () => {
               </option>
             </Input>
           </FormGroup>
+          <div className="center">
+            <div>
+              <iframe width="500" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=30.607757329913227~-96.33602414901912&lvl=11.321041527025999&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+              </iframe>
+              <div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
+                  <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=30.607757329913227~-96.33602414901912&amp;sty=r&amp;lvl=11.321041527025999&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
+                  <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=30.607757329913227~-96.33602414901912&amp;sty=r&amp;lvl=11.321041527025999&amp;rtp=~pos.30.607757329913227_-96.33602414901912____&amp;FORM=MBEDLD">Get Directions</a>
+              </div>
+            </div>
+          </div>
         </div>
         <Button
           href="/packing"
