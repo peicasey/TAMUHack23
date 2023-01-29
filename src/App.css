@@ -27,6 +27,14 @@ nav {
     background-size: cover; */
 }
 
+.font-white {
+    color:#ffffff;
+}
+
+.padded {
+    padding:2rem;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;

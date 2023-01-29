@@ -18,7 +18,7 @@ const NavComponent = () => {
   return (
     <div>
       <Navbar>
-        <NavbarBrand href="/" className="me-auto" color="light">
+        <NavbarBrand href="/" className="me-auto font-white">
           <img src={logo} alt="CarryOn Logo" width="125" height="50"/>
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
