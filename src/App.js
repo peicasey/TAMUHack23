@@ -1,7 +1,7 @@
-import Nav_Component from "./components/Nav_Component";
+import NavComponent from "./components/NavComponent";
 // import Login from "./components/Login";
-// import Add_Bags from "./components/New_Trip";
-// import Add_Items from "./components/Add_Items";
+// import AddBags from "./components/NewTrip";
+// import AddItems from "./components/AddItems";
 import Home from "./components/Home";
 // import Result from "./components/Result";
 import { Button } from 'reactstrap';
@@ -11,7 +11,7 @@ function App() {
   
   return (
     <div>
-      <Nav_Component />
+      <NavComponent />
       <div className="flex flex-col items-center mt-16">
         <h1 className="text-4xl text-center">
           CAN IT FLY?

@@ -1,13 +1,13 @@
 // import React, { useState } from 'react';
 import React from 'react';
 
-const New_Trip = () => {
+const NewTrip = () => {
 
   return (
     <div>
-        New_Trip
+        New Trip
     </div>
   );
 };
 
-export default New_Trip;
+export default NewTrip;
