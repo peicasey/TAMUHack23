@@ -22,7 +22,9 @@ function App() {
 
     <div>
       <div>proof that something is working :D</div>
+      
       <NavComponent />
+
       <Routes>
          <Route path='/' element={<Home/ >}/>
          <Route path='/newtrip' element={<NewTrip/ >}/>
