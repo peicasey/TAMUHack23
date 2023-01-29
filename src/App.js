@@ -20,8 +20,12 @@ function App() {
         <h2 className="text-4xl text-center">
           ASK PACKMATE AND FIND OUT
         </h2>
-      <Home />
-      <Button color="info">Add Bags</Button>
+        <div>
+        <Home />
+        <Button color="info" outline>
+          Add Bags
+        </Button>
+        </div>
       </div>
     </div>
   );

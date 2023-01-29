@@ -16,9 +16,16 @@ nav {
 
 .bg {
     color:#ffffff;
-    background: linear-gradient(-45deg, #919191, #95949c, #2f3437, #669dcd);
+    background: linear-gradient(-45deg, #132a3f, #95949c, #2f3437, #669dcd);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+
+    height: 100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @keyframes gradient {
@@ -69,7 +76,7 @@ ul li {
 h1 {
     font-family: 'Monsterrat', sans-serif;
     font-weight:800;
-    font-size: 36px;
+    font-size: 128px;
     text-align: center;
 }
 .btn {

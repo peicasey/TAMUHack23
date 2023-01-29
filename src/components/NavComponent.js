@@ -17,7 +17,7 @@ const NavComponent = () => {
 
   return (
     <div>
-      <Navbar color="dark" dark>
+      <Navbar>
         <NavbarBrand href="/" className="me-auto">
           <img src={logo} alt="CarryOn Logo" width="125" height="50"/>
         </NavbarBrand>
