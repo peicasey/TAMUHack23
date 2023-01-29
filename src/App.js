@@ -3,8 +3,9 @@ import NavComponent from "./components/NavComponent";
 import NewTrip from "./components/NewTrip";
 // import AddItems from "./components/AddItems";
 import Home from "./components/Home";
-// import Result from "./components/Result";
-import { Button } from 'reactstrap';
+import Result from "./components/Result";
+// import { Button } from 'reactstrap';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import React from 'react';
 
@@ -13,21 +14,12 @@ function App() {
   return (
     <div className="app bg" dark>
       <NavComponent />
-      <div className="flex flex-col items-center mt-16">
-        <h1 className="text-4xl text-center">
-          CAN IT FLY?
-        </h1>
-        <h2 className="text-4xl text-center">
-          ASK PACKMATE AND FIND OUT
-        </h2>
-        <div className="center">
-        <NewTrip />
-        <Home />
-        <Button color="info" outline>
-          Add Bags
-        </Button>
-        </div>
-      </div>
+      <Routes>
+         <Route path='/' element={<Home/>}></Route>
+         <Route path='/newtrip' element={<NewTrip/>}></Route>
+         <Route path='/result' element={<Result/>}></Route>
+      </Routes>
+
     </div>
   );
 
