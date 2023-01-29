@@ -21,9 +21,7 @@ const Home = () => {
         <div className="center">
             
             <img src={will} alt="Will the Packmate" width="700" height="550"/>
-            <Button outline>
-                Add Bags
-            </Button>
+            
         </div>
     </div>
   );

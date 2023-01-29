@@ -21,9 +21,7 @@ function App() {
   
   return (
 
-    <div>
-      <div>proof that something is working :D</div>
-
+    <div className="app bg">
       <NavComponent />
 
       <Router>
