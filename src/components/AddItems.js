@@ -1,5 +1,4 @@
-// import React, { useState } from 'react';
-import React from "react";
+import React, { useState } from "react";
 import '../App.css';
 import { Button,
   Form,
@@ -11,6 +10,15 @@ import will from '../assets/will_925x782.png'; // gives image path
 
 
 const AddItems = () => {
+
+    const [name, setName] = useState(" ");
+    const handleInput = event => {
+      setName(event.target.value);  };
+  
+    const logValue = () => {
+      console.log(name);
+    };
+
   return (
         <div className="bg">
             <h1>ITEMS</h1>
@@ -22,13 +30,16 @@ const AddItems = () => {
                 </Label>
                 <Input
                   id="exampleText"
+                  onChange={handleInput}
                   name="text"
                   type="textarea"
                 />
               </FormGroup>
               <Button
                 href="/result"
-                tag='a'>
+                tag='a'
+                onClick={logValue}
+                >
                 See results
               </Button>
               <Button

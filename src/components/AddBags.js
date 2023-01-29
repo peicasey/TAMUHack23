@@ -53,7 +53,7 @@ const AddItem = () => {
             type="text"
           />
         </FormGroup>
-        <div className="center">
+        <div className="padded">
           <ButtonGroup>
             <Button
               color="info"
@@ -80,7 +80,7 @@ const AddItem = () => {
           </Button>
         </div>
       </Form>
-      <div className="center">
+      <div className="padded">
         <Button
           href="/newtrip"
           tag="a">

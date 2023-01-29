@@ -58,7 +58,7 @@ const Home = () => {
                 </AccordionItem>
             </Accordion>
             </div>
-            <div className="center padded">
+            <div className="padded">
                 <Button
                     color="info"
                     size="lg"
