@@ -62,23 +62,27 @@ const NewTrip = () => {
             </Input>
           </FormGroup>
           <div>
-            <iframe title="nearest airport" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.937938986892!2d-97.04252388504003!3d32.899809080935086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2a660d222aa7%3A0x73323f5e067d201c!2sDallas%2FFort%20Worth%20International%20Airport!5e0!3m2!1sen!2sus!4v1675014827346!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <span>
+              <iframe title="nearest airport" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.937938986892!2d-97.04252388504003!3d32.899809080935086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2a660d222aa7%3A0x73323f5e067d201c!2sDallas%2FFort%20Worth%20International%20Airport!5e0!3m2!1sen!2sus!4v1675014827346!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <img src={will} alt="Will the Packmate" width="235" height="225" className="center"/>
+            </span>
           </div>
         </div>
-        <Button
-          href="/packing"
-          tag="a">
-          Start Packing!
-        </Button>
-        <Button
-          href="/"
-          tag="a">
-          Back
-        </Button>
+        <div className="center items-center">
+          <Button
+            href="/packing"
+            tag="a">
+            Start Packing!
+          </Button>
+          <Button
+            href="/"
+            tag="a">
+            Back
+          </Button>
+        </div>
       </Form>
       </div>
       
-      <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
     </div>
   );
 };

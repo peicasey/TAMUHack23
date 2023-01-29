@@ -53,36 +53,40 @@ const AddItem = () => {
             type="text"
           />
         </FormGroup>
-        <ButtonGroup>
+        <div className="center">
+          <ButtonGroup>
+            <Button
+              color="info"
+              outline
+              onClick={() => setRSelected("Checked")}
+              active={rSelected === 1}
+            >
+              Checked
+            </Button>
+            <Button
+              color="info"
+              outline
+              onClick={() => setRSelected("Carry-on")}
+              active={rSelected === 2}
+            >
+              Carry-on
+            </Button>
+          </ButtonGroup>
+          <p>Selected: {rSelected}</p>
           <Button
-            color="info"
-            outline
-            onClick={() => setRSelected("Checked")}
-            active={rSelected === 1}
-          >
-            Checked
+            href="/items"
+            tag='a'>
+            Add items to this bag!
           </Button>
-          <Button
-            color="info"
-            outline
-            onClick={() => setRSelected("Carry-on")}
-            active={rSelected === 2}
-          >
-            Carry-on
-          </Button>
-        </ButtonGroup>
-        <p>Selected: {rSelected}</p>
-        <Button
-          href="/items"
-          tag='a'>
-          Add items to this bag!
-        </Button>
+        </div>
       </Form>
-      <Button
-        href="/newtrip"
-        tag="a">
-        Back
-      </Button>
+      <div className="center">
+        <Button
+          href="/newtrip"
+          tag="a">
+          Back
+        </Button>
+      </div>
       </div>
     </div>
   );
