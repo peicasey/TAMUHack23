@@ -8,7 +8,8 @@ import {
     AccordionBody,
     AccordionHeader,
     AccordionItem
-  } from 'reactstrap'
+  } from 'reactstrap';
+import Pyscript from "./Pyscript";
 import '../App.css';
 import will from '../assets/will_925x782.png'; // gives image path
 
@@ -23,6 +24,14 @@ const Result = () => {
         }
     };
 
+    const pyscript = `
+    for i in range(9):
+        print(i)
+
+    def func():
+        print('function works')
+    `
+
   return (
         <div className="bg">
             <h1>RESULTS</h1>
@@ -34,17 +43,16 @@ const Result = () => {
                 value={39}
                 />
                 <div className="padded">
-                    <div
-                    dangerouslySetInnerHTML={{
-                        __html: `<py-script>
-                        from datetime import datetime
-                        now = datetime.now()
-                        now.strftime("%m/%d/%Y, %H:%M:%S")
-                        </py-script>`,
-                    }}
-                    />
-                    <img src={will} alt="Will the Packmate" width="70" height="55" className="center"/>
-                    <div className="flex flex-col items-center padded">
+                    <div>
+                        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+                        <Script defer src="https://pyscript.net/latest/pyscript.js" strategy='beforeInteractive'/>
+                    </div>
+                    <div>
+                        <py-script dangerouslySetInnerHTML={{__html: pyscript}} />
+                    </div>
+                </div>
+                <img src={will} alt="Will the Packmate" width="70" height="55" className="center"/>
+                <div className="flex flex-col items-center padded">
                     <Accordion open={open} toggle={toggle}>
                         <AccordionItem>
                         <AccordionHeader targetId="1">Self-Defense Sprays</AccordionHeader>
@@ -52,7 +60,6 @@ const Result = () => {
                             One 4 fl. oz. (118 ml) container of mace or pepper spray is permitted in checked baggage provided it is equipped with a safety mechanism to prevent accidental discharge. Self-defense sprays containing more than 2 percent by mass of tear gas (CS or CN) are prohibited in checked baggage. For more information, visit faa.gov.
 
                             We recommend checking with your airline as some may not allow this item in checked bags.
-
                         </AccordionBody>
                         </AccordionItem>
                         <AccordionItem>
@@ -68,17 +75,14 @@ const Result = () => {
                         </AccordionBody>
                         </AccordionItem>
                     </Accordion>
-                    </div>
                 </div>
-                <Form>
-                    <Button
-                        href="/"
-                        tag='a'>
-                        Back
-                    </Button>
-                </Form>
+                <div>
+                    <Form>
+                        <Button href="/" tag='a'>Back</Button>
+                    </Form>
+                </div>
                 <div className="padded">
-                    <img src={will} alt="Will the Packmate" width="350" height="225" className="center"/>
+                <img src={will} alt="Will the Packmate" width="350" height="225" className="center"/>
                 </div>
             </div>
         </div>
