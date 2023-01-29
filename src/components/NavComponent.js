@@ -16,7 +16,7 @@ const NavComponent = () => {
 
   return (
     <div>
-      <Navbar color="faded" light>
+      <Navbar color="faded" dark>
         <NavbarBrand href="/" className="me-auto">
           reactstrap
         </NavbarBrand>
