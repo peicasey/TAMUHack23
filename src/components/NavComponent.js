@@ -18,20 +18,20 @@ const NavComponent = () => {
   return (
     <div>
       <Navbar>
-        <NavbarBrand href="/" className="me-auto">
+        <NavbarBrand href="/" className="me-auto" color="light">
           <img src={logo} alt="CarryOn Logo" width="125" height="50"/>
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href='/'>Home</NavLink>
+              <NavLink href='/' color="light">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href='/newtrip'>New Trip</NavLink>
+              <NavLink href='/newtrip' color="light">New Trip</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href='/resources'>Resources</NavLink>
+              <NavLink href='/resources' color="light">Resources</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
