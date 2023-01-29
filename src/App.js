@@ -16,8 +16,9 @@ function App() {
         <h1 className="text-4xl text-center">
           Tailwind CSS makes styling React components easier!
         </h1>
+      <Home />
       <button className="bg-black text-white p-2.5 w-fit mt-9 ">
-        Get Started
+        Get Started {value}
       </button>
       </div>
     </div>
