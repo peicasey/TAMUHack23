@@ -12,6 +12,8 @@ import '../App.css';
 
 const AddItem = () => {
 
+  const [rSelected, setRSelected] = useState(null);
+
   return (
     <div className="bg">
       <h1>BAG</h1>
@@ -50,28 +52,25 @@ const AddItem = () => {
             type="text"
           />
         </FormGroup>
-        <FormGroup tag="fieldset">
-          <FormGroup check>
-            <Input
-              name="carryOn"
-              type="radio"
-            />
-            {' '}
-            <Label check>
-              Carry On
-            </Label>
-          </FormGroup>
-          <FormGroup check>
-            <Input
-              name="checked"
-              type="radio"
-            />
-            {' '}
-            <Label check>
-              Checked
-            </Label>
-          </FormGroup>
-        </FormGroup>
+        <ButtonGroup>
+          <Button
+            color="info"
+            outline
+            onClick={() => setRSelected(1)}
+            active={rSelected === 1}
+          >
+            Checked
+          </Button>
+          <Button
+            color="info"
+            outline
+            onClick={() => setRSelected(2)}
+            active={rSelected === 2}
+          >
+            Carry-on
+          </Button>
+        </ButtonGroup>
+        <p>Selected: {rSelected}</p>
         <Button>
           Add items to this bag!
         </Button>
