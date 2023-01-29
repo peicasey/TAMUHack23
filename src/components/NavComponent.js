@@ -8,7 +8,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import logo from './assets/CarryOn_Logo.png'; // gives image path
+import logo from '../assets/CarryOn_Logo.png'; // gives image path
 
 const NavComponent = () => {
   const [collapsed, setCollapsed] = useState(true);

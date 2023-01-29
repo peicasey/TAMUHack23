@@ -1,6 +1,6 @@
 // import React, { useState } from 'react';
 import React from 'react';
-import will from './assets/Packmate.png'; // gives image path
+import will from '../assets/Packmate.png'; // gives image path
 
 const Home = () => {
 
