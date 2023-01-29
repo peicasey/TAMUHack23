@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 import React from "react";
 
-import CollapseTxt from "./CollapseTxt";
+// import CollapseTxt from "./CollapseTxt";
 
 import will from '../assets/will_925x782.png'; // gives image path
 
@@ -23,9 +23,9 @@ const Home = () => {
         </h2>
         <div>
             <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
-            <CollapseTxt blurb={blurb1}/>
+            {/* <CollapseTxt blurb={blurb1}/>
             <CollapseTxt blurb={blurb2}/>
-            <CollapseTxt blurb={blurb3}/>
+            <CollapseTxt blurb={blurb3}/> */}
         </div>
     </div>
   );
