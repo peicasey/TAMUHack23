@@ -7,7 +7,7 @@ import { Button,
     AccordionHeader,
     AccordionItem,
   } from 'reactstrap';
-import will from '../assets/will_925x782.png'; // gives image path
+import will from '../assets/Packmate.png'; // gives image path
 
 import '../App.css';
 
@@ -31,7 +31,7 @@ const Home = () => {
           ASK PACKMATE AND FIND OUT
         </h2>
         <div className="padded">
-            <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
+            <img src={will} alt="Will the Packmate" className="center"/>
             <div className="flex flex-col items-center padded">
             <Accordion open={open} toggle={toggle}>
                 <AccordionItem>

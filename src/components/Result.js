@@ -11,7 +11,7 @@ import {
   } from 'reactstrap';
 
 import '../App.css';
-import will from '../assets/will_925x782.png'; // gives image path
+import will from '../assets/Packmate.png'; // gives image path
 
 const Result = () => {
 
@@ -27,7 +27,7 @@ const Result = () => {
   return (
         <div className="bg">
             <h1>RESULTS</h1>
-            <h2>We've calculated that 86.5% of your items abide all guidelines!</h2>
+            <h2 className="padded">We've calculated that 86.5% of your items abide all guidelines!</h2>
             <div className="padded">
                 <Progress
                 animated
@@ -37,7 +37,7 @@ const Result = () => {
                 <div className="padded">
                     {/* nothing */}
                 </div>
-                <img src={will} alt="Will the Packmate" width="70" height="55" className="center"/>
+                <img src={will} alt="Will the Packmate" className="center"/>
                 <div className="flex flex-col items-center padded">
                     <Accordion open={open} toggle={toggle}>
                         <AccordionItem>
@@ -66,9 +66,6 @@ const Result = () => {
                     <Form>
                         <Button href="/" tag='a' color="info">Back</Button>
                     </Form>
-                </div>
-                <div className="padded">
-                <img src={will} alt="Will the Packmate" width="350" height="225" className="center"/>
                 </div>
             </div>
         </div>
