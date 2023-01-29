@@ -20,13 +20,13 @@ function App() {
   
   return (
 
-    <div className="app bg" dark>
+    <div>
       <div>proof that something is working :D</div>
       <NavComponent />
       <Routes>
-         <Route path='/' element={<Home/>}></Route>
-         <Route path='/newtrip' element={<NewTrip/>}></Route>
-         <Route path='/result' element={<Result/>}></Route>
+         <Route path='/' element={<Home/>}/>
+         <Route path='/newtrip' element={<NewTrip/>}/>
+         <Route path='/result' element={<Result/>}/>
       </Routes>
     </div>
   );
