@@ -1,3 +1,6 @@
+#airline specific
+#synonymous words 
+
 import requests
 import csv
 from bs4 import BeautifulSoup
@@ -64,6 +67,8 @@ with open ('tsa_requirement.csv', 'w', newline='') as f:
                 bodyList.append(strText)
                 if note != "":
                     bodyList.append(note)
+                else:
+                    bodyList.append("")
                 writer.writerow(bodyList)
                 bodyList.clear()
                 note = ""
