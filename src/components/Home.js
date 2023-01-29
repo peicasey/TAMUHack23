@@ -2,7 +2,6 @@
 import React from "react";
 
 // import NewTrip from "./NewTrip";
-import { Button } from 'reactstrap';
 
 import will from '../assets/will_925x782.png'; // gives image path
 
