@@ -33,27 +33,30 @@ const NewTrip = () => {
             <Input
               id="departureSelect"
               name="departure"
+              placeholder="Select the airport you're departing from."
               type="select"
             >
               <option>
                 Dalla-Fort Worth International Airport, DFW
               </option>
               <option>
-                2
+                George Bush Intercontinental Airport, IAH
               </option>
               <option>
-                3
+                Dallas Love Field Airport, DAL
               </option>
               <option>
-                4
+                Austin-Bergstrom International Airport, AUS
               </option>
               <option>
-                5
+                William P. Hobby Airport, HOU
               </option>
             </Input>
           </FormGroup>
         </div>
-        <Button>
+        <Button
+          href="/packing"
+          tag="a">
           Start Packing!
         </Button>
       </Form>
