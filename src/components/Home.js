@@ -7,7 +7,6 @@ import { Button } from 'reactstrap';
 import will from '../assets/will_925x782.png'; // gives image path
 
 const Home = () => {
-<<<<<<< HEAD
 
   return (
     <div className="flex flex-col items-center mt-16">
@@ -26,9 +25,6 @@ const Home = () => {
         </div>
       </div>
   );
-=======
-  return <div>Home</div>;
->>>>>>> 695d7c9 (3 ry)
 };
 
 export default Home;

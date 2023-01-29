@@ -7,7 +7,6 @@
 
 /* 
 nav {
-<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     padding: 16px 36px;
@@ -26,13 +25,6 @@ nav {
     background-attachment: local;
     background-repeat: no-repeat;
     background-size: cover;
-=======
-  display: flex;
-  justify-content: space-between;
-  padding: 16px 36px;
-  color: #000;
-  box-shadow: 0px 2px 5px 0px rgba(168, 168, 168, 0.75);
->>>>>>> 695d7c9 (3 ry)
 }
 
 @keyframes gradient {
@@ -88,15 +80,10 @@ ul li {
   margin-top: 64px;
 }
 h1 {
-<<<<<<< HEAD
     font-family: 'Monsterrat', sans-serif;
     font-weight:800;
     font-size: 128px;
     text-align: center;
-=======
-  font-size: 36px;
-  text-align: center;
->>>>>>> 695d7c9 (3 ry)
 }
 .btn {
   background-color: #000000;
