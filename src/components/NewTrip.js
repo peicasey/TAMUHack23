@@ -65,6 +65,11 @@ const NewTrip = () => {
           tag="a">
           Start Packing!
         </Button>
+        <Button
+          href="/"
+          tag="a">
+          Back
+        </Button>
       </Form>
       <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
     </div>
