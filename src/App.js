@@ -25,10 +25,10 @@ function App() {
 
       <Router>
         <Routes>
-          <Route path='/' element={<Home/ >}/>
-          <Route path='/newtrip' element={<NewTrip/ >}/>
-          <Route path='/packing' element={<Packing/ >}/>
-          <Route path='/result' element={<Result/ >}/>
+          <Route path='/' element={<Home />}/>
+          <Route path='/newtrip' element={<NewTrip />}/>
+          <Route path='/packing' element={<Packing />}/>
+          <Route path='/result' element={<Result />}/>
           <Route path="*" element={<NoMatch />} />
         </Routes>
       </Router>

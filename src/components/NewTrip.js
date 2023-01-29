@@ -8,6 +8,8 @@ import {
   Button
 } from 'reactstrap';
 
+import '../App.css';
+
 
 const NewTrip = () => {
 

@@ -1,10 +1,11 @@
 // import React, { useState } from 'react';
 import React from "react";
+import '../App.css';
 
 const AddItem = () => {
 
   return (
-    <div>
+    <div className="bg">
         Add Item
     </div>
   );
