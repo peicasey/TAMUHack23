@@ -16,7 +16,7 @@ function App() {
         <h1 className="text-4xl text-center">
           CAN IT FLY?
         </h1>
-        <h2>
+        <h2 className="text-4xl text-center">
           ASK PACKMATE AND FIND OUT
         </h2>
       <Home />
