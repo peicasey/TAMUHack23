@@ -25,7 +25,7 @@ driver = webdriver.Chrome('/Users/yuqiancao/Documents/TAMU/Hackathon/chromedrive
 driver.get('https://www.tsa.gov/travel/security-screening/whatcanibring/all-list') # Getting page HTML through request
 soup = BeautifulSoup(driver.page_source, 'html.parser') # Parsing content using beautifulsoup. Notice driver.page_source instead of page.content
  
-with open ('csv_file', 'w', newline='') as f:
+with open ('tsa_requirement.csv', 'w', newline='') as f:
     writer = csv.writer(f)
 
     #header = soup.select("table.views-table thead tr th")
