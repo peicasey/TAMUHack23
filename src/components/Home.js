@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 import React from "react";
 
-import NewTrip from "./NewTrip";
+// import NewTrip from "./NewTrip";
 import { Button } from 'reactstrap';
 
 import will from '../assets/will_925x782.png'; // gives image path
@@ -19,7 +19,7 @@ const Home = () => {
           ASK PACKMATE AND FIND OUT
         </h2>
         <div className="center">
-            <NewTrip />
+            
             <img src={will} alt="Will the Packmate" width="700" height="550"/>
             <Button outline>
                 Add Bags

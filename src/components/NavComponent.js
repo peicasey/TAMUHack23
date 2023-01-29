@@ -25,12 +25,10 @@ const NavComponent = () => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem>
-              <NavLink href="/">Home</NavLink>
+              <NavLink href='/'>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/newtrip">
-                New Trip
-              </NavLink>
+              <NavLink href='/newtrip'>New Trip</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

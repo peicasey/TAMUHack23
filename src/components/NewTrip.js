@@ -7,6 +7,8 @@ import {
   Label,
   Button
 } from 'reactstrap';
+
+
 const NewTrip = () => {
 
   return (
