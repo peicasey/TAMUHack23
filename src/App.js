@@ -12,6 +12,7 @@ import React from 'react';
 function App() {
   
   return (
+<<<<<<< HEAD
     <div className="app bg" dark>
       <NavComponent />
       <Routes>
@@ -20,6 +21,19 @@ function App() {
          <Route path='/result' element={<Result/>}></Route>
       </Routes>
 
+=======
+    <div>
+      <Navbar />
+      <div className="flex flex-col items-center mt-16">
+        <h1 className="text-4xl text-center">
+          Tailwind CSS makes styling React components easier!
+        </h1>
+      <button className="bg-black text-white p-2.5 w-fit mt-9 ">
+        Get Started
+      </button>
+      <Button variant="contained">Contained</Button>
+      </div>
+>>>>>>> 18cba08 (am ryan)
     </div>
   );
 
