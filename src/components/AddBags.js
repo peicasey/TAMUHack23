@@ -57,7 +57,7 @@ const AddItem = () => {
           <Button
             color="info"
             outline
-            onClick={() => setRSelected(1)}
+            onClick={() => setRSelected("Checked")}
             active={rSelected === 1}
           >
             Checked
@@ -65,7 +65,7 @@ const AddItem = () => {
           <Button
             color="info"
             outline
-            onClick={() => setRSelected(2)}
+            onClick={() => setRSelected("Carry-on")}
             active={rSelected === 2}
           >
             Carry-on
