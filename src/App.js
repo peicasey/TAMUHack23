@@ -5,6 +5,7 @@ import NavComponent from "./components/NavComponent";
 import Home from "./components/Home";
 // import Result from "./components/Result";
 import { Button } from 'reactstrap';
+import './app.css';
 import React from 'react';
 
 function App() {
