@@ -20,7 +20,7 @@ function App() {
           ASK PACKMATE AND FIND OUT
         </h2>
       <Home />
-      <Button color="danger">Danger!</Button>
+      <Button color="info">Add Bags</Button>
       </div>
     </div>
   );

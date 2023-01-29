@@ -1,11 +1,12 @@
 // import React, { useState } from 'react';
 import React from 'react';
+import will from './assets/Packmate.png'; // gives image path
 
 const Home = () => {
 
   return (
     <div>
-        Home
+        <img src={will} alt="Packmate image" />
     </div>
   );
 };

@@ -8,6 +8,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
+import logo from './assets/CarryOn_Logo.png'; // gives image path
 
 const NavComponent = () => {
   const [collapsed, setCollapsed] = useState(true);
@@ -16,9 +17,9 @@ const NavComponent = () => {
 
   return (
     <div>
-      <Navbar color="faded" dark>
+      <Navbar color="dark" dark>
         <NavbarBrand href="/" className="me-auto">
-          reactstrap
+          <img src={logo} alt="Logo image" />
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
         <Collapse isOpen={!collapsed} navbar>
@@ -28,7 +29,7 @@ const NavComponent = () => {
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/reactstrap/reactstrap">
-                GitHub
+                Add Bags
               </NavLink>
             </NavItem>
           </Nav>
