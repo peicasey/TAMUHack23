@@ -38,9 +38,7 @@ const NewTrip = () => {
               placeholder="Select the airport you're departing from."
               type="select"
             >
-              <option>
-                Dalla-Fort Worth International Airport, DFW
-              </option>
+              <option> </option>
               <option>
                 George Bush Intercontinental Airport, IAH
               </option>
@@ -52,6 +50,9 @@ const NewTrip = () => {
               </option>
               <option>
                 William P. Hobby Airport, HOU
+              </option>
+              <option>
+                Dalla-Fort Worth International Airport, DFW
               </option>
             </Input>
           </FormGroup>
