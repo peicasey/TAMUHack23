@@ -2,7 +2,7 @@
 import React from 'react';
 
 // components
-// import NavComponent from "./components/NavComponent";
+import NavComponent from "./components/NavComponent";
 // import Login from "./components/Login";
 import NewTrip from "./components/NewTrip";
 // import AddItems from "./components/AddItems";
@@ -22,7 +22,7 @@ function App() {
 
     <div>
       <div>proof that something is working :D</div>
-      {/* <NavComponent /> */}
+      <NavComponent />
       <Routes>
          <Route path='/' element={<Home/ >}/>
          <Route path='/newtrip' element={<NewTrip/ >}/>
