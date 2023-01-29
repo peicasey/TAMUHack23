@@ -18,7 +18,7 @@ const AddItem = () => {
   return (
     <div className="bg">
       <h1>BAG</h1>
-      <div>
+      <div className="padded">
       <Form>
         <FormGroup>
           <Label for="length">

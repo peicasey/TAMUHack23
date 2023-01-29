@@ -30,7 +30,7 @@ const Home = () => {
         <h2 className="text-4xl text-center">
           ASK PACKMATE AND FIND OUT
         </h2>
-        <div>
+        <div className="padded">
             <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
             <div className="flex flex-col items-center padded">
             <Accordion open={open} toggle={toggle}>

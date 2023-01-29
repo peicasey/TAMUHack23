@@ -14,10 +14,11 @@ const AddItems = () => {
   return (
         <div className="bg">
             <h1>ITEMS</h1>
+            <div className="padding">
             <Form>
               <FormGroup>
                 <Label for="exampleText">
-                  Enter you list of items! Example: Water, baseball bat, laptop, etc.
+                  Enter your list of items! Example: Water, baseball bat, laptop, etc.
                 </Label>
                 <Input
                   id="exampleText"
@@ -36,6 +37,7 @@ const AddItems = () => {
                 Back
               </Button>
             </Form>
+            </div>
             
             <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
         </div>
