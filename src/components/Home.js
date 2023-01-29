@@ -9,10 +9,6 @@ import '../App.css';
 
 const Home = () => {
 
-    var blurb1 = "Find out about what TSA Guidelines might apply to you!"
-    var blurb2 = "Learn sneaky Airline Guidelienes!"
-    var blurb3 = "Have a worry-free travel experience with luggage that has already been checked"
-
   return (
     <div className="flex flex-col items-center mt-16 bg">
         <h1 className="text-4xl text-center">
@@ -40,7 +36,7 @@ const Home = () => {
                     width: '500px'
                 }}
                 >
-                {blurb1}
+                Find out about what TSA Guidelines might apply to you!
                 </Alert>
             </Collapse>
             </div>
@@ -60,7 +56,7 @@ const Home = () => {
                     width: '500px'
                 }}
                 >
-                {blurb2}
+                Learn sneaky Airline Guidelienes!
                 </Alert>
             </Collapse>
             </div>
@@ -80,7 +76,7 @@ const Home = () => {
                     width: '500px'
                 }}
                 >
-                {blurb3}
+                Have a worry-free travel experience with luggage that has already been checked
                 </Alert>
             </Collapse>
             </div>

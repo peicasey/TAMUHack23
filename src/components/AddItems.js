@@ -14,10 +14,8 @@ const AddItem = () => {
 
   return (
     <div className="bg">
-      <Button>
-        Add Another Bag
-      </Button>
-      <h1>Bag</h1>
+      <h1>BAG</h1>
+      <div>
       <Form>
         <FormGroup>
           <Label for="length">
@@ -76,6 +74,10 @@ const AddItem = () => {
           Add items to this bag!
         </Button>
       </Form>
+      <Button>
+        Add Another Bag
+      </Button>
+      </div>
     </div>
   );
 };
