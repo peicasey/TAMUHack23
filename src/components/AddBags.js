@@ -78,14 +78,11 @@ const AddItem = () => {
           Add items to this bag!
         </Button>
       </Form>
-      <Button>
-        Add Another Bag
-      </Button>
       <Button
-          href="/newtrip"
-          tag="a">
-          Back
-        </Button>
+        href="/newtrip"
+        tag="a">
+        Back
+      </Button>
       </div>
     </div>
   );
