@@ -50,25 +50,27 @@ const AddItem = () => {
             type="text"
           />
         </FormGroup>
-        <FormGroup check>
-          <Input
-            name="carryOn"
-            type="radio"
-          />
-          {' '}
-          <Label check>
-            Carry On
-          </Label>
-        </FormGroup>
-        <FormGroup check>
-          <Input
-            name="checked"
-            type="radio"
-          />
-          {' '}
-          <Label check>
-            Checked
-          </Label>
+        <FormGroup tag="fieldset">
+          <FormGroup check>
+            <Input
+              name="carryOn"
+              type="radio"
+            />
+            {' '}
+            <Label check>
+              Carry On
+            </Label>
+          </FormGroup>
+          <FormGroup check>
+            <Input
+              name="checked"
+              type="radio"
+            />
+            {' '}
+            <Label check>
+              Checked
+            </Label>
+          </FormGroup>
         </FormGroup>
         <Button>
           Add items to this bag!
