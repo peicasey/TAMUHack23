@@ -3,7 +3,11 @@ import React from "react";
 import { 
     Form,
     Button,
-    Progress
+    Progress,
+    Accordion,
+    AccordionBody,
+    AccordionHeader,
+    AccordionItem
   } from 'reactstrap'
 import '../App.css';
 import will from '../assets/will_925x782.png'; // gives image path
