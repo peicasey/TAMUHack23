@@ -9,7 +9,7 @@ import {
     AccordionHeader,
     AccordionItem
   } from 'reactstrap';
-import Pyscript from "./Pyscript";
+
 import '../App.css';
 import will from '../assets/will_925x782.png'; // gives image path
 
@@ -24,14 +24,6 @@ const Result = () => {
         }
     };
 
-    const pyscript = `
-    for i in range(9):
-        print(i)
-
-    def func():
-        print('function works')
-    `
-
   return (
         <div className="bg">
             <h1>RESULTS</h1>
@@ -43,13 +35,7 @@ const Result = () => {
                 value={39}
                 />
                 <div className="padded">
-                    <div>
-                        <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-                        <Script defer src="https://pyscript.net/latest/pyscript.js" strategy='beforeInteractive'/>
-                    </div>
-                    <div>
-                        <py-script dangerouslySetInnerHTML={{__html: pyscript}} />
-                    </div>
+                    {/* nothing */}
                 </div>
                 <img src={will} alt="Will the Packmate" width="70" height="55" className="center"/>
                 <div className="flex flex-col items-center padded">
