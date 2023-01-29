@@ -1,6 +1,6 @@
 import NavComponent from "./components/NavComponent";
 // import Login from "./components/Login";
-// import AddBags from "./components/NewTrip";
+import NewTrip from "./components/NewTrip";
 // import AddItems from "./components/AddItems";
 import Home from "./components/Home";
 // import Result from "./components/Result";
@@ -21,6 +21,7 @@ function App() {
           ASK PACKMATE AND FIND OUT
         </h2>
         <div>
+        <NewTrip />
         <Home />
         <Button color="info" outline>
           Add Bags
