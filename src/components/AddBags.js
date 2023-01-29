@@ -72,7 +72,9 @@ const AddItem = () => {
           </Button>
         </ButtonGroup>
         <p>Selected: {rSelected}</p>
-        <Button>
+        <Button
+          href="/items"
+          tag='a'>
           Add items to this bag!
         </Button>
       </Form>
