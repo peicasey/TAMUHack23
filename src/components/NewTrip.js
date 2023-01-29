@@ -61,16 +61,9 @@ const NewTrip = () => {
               </option>
             </Input>
           </FormGroup>
-          {/* <div className="center">
-            <div>
-              <iframe title="airports nearby" width="500" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=30.607757329913227~-96.33602414901912&lvl=11.321041527025999&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
-              </iframe>
-              <div style="white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
-                  <a id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=30.607757329913227~-96.33602414901912&amp;sty=r&amp;lvl=11.321041527025999&amp;FORM=MBEDLD">View Larger Map</a> &nbsp; | &nbsp;
-                  <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=30.607757329913227~-96.33602414901912&amp;sty=r&amp;lvl=11.321041527025999&amp;rtp=~pos.30.607757329913227_-96.33602414901912____&amp;FORM=MBEDLD">Get Directions</a>
-              </div>
-            </div>
-          </div> */}
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.937938986892!2d-97.04252388504003!3d32.899809080935086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2a660d222aa7%3A0x73323f5e067d201c!2sDallas%2FFort%20Worth%20International%20Airport!5e0!3m2!1sen!2sus!4v1675014827346!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
         <Button
           href="/packing"

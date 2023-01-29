@@ -19,16 +19,16 @@ const Result = () => {
                 color="warning"
                 value={39}
                 />
-            </div>
-            <Form>
-                <Button
-                    href="/packing"
-                    tag='a'>
-                    Back
-                </Button>
-            </Form>
-            <div className="padded">
-                <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
+                <Form>
+                    <Button
+                        href="/packing"
+                        tag='a'>
+                        Back
+                    </Button>
+                </Form>
+                <div className="padded">
+                    <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
+                </div>
             </div>
         </div>
     );
