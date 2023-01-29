@@ -3,9 +3,8 @@ import React from 'react';
 
 // components
 import NavComponent from "./components/NavComponent";
-// import Login from "./components/Login";
 import NewTrip from "./components/NewTrip";
-// import AddItems from "./components/AddItems";
+import Packing from "./components/AddItems";
 import Home from "./components/Home";
 import Result from "./components/Result";
 import NoMatch from "./components/NoMatch";
@@ -28,6 +27,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/ >}/>
           <Route path='/newtrip' element={<NewTrip/ >}/>
+          <Route path='/packing' element={<Packing/ >}/>
           <Route path='/result' element={<Result/ >}/>
           <Route path="*" element={<NoMatch />} />
         </Routes>
