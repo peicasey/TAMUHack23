@@ -58,12 +58,12 @@ const Home = () => {
                 </AccordionItem>
             </Accordion>
             </div>
-            <div className="center">
-            <Button
-                color="info"
-                size="lg"
-                href="/newtrip"
-            >START A NEW TRIP NOW</Button>
+            <div className="center padded">
+                <Button
+                    color="info"
+                    size="lg"
+                    href="/newtrip"
+                >START A NEW TRIP NOW</Button>
             </div>
         </div>
     </div>

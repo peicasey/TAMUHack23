@@ -12,7 +12,7 @@ const Result = () => {
   return (
         <div className="bg">
             <h1>RESULTS</h1>
-            <h2>Didn't get to implementing this</h2>
+            <h2>We've calculated that 86.5% of your items abide all guidelines!</h2>
             <div className="padded">
                 <Progress
                 animated
