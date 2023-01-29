@@ -10,7 +10,7 @@ import React from 'react';
 function App() {
   
   return (
-    <div>
+    <div className="app">
       <NavComponent />
       <div className="flex flex-col items-center mt-16">
         <h1 className="text-4xl text-center">
