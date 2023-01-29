@@ -26,7 +26,7 @@ const AddItem = () => {
           <Input
             id="length"
             name="length"
-            placeholder="Enter the length of this bag"
+            placeholder="Enter the length of this bag (inches)"
             type="text"
           />
         </FormGroup>
@@ -37,7 +37,7 @@ const AddItem = () => {
           <Input
             id="width"
             name="width"
-            placeholder="Enter the width of this bag"
+            placeholder="Enter the width of this bag (inches)"
             type="text"
           />
         </FormGroup>
@@ -48,7 +48,7 @@ const AddItem = () => {
           <Input
             id="height"
             name="height"
-            placeholder="Enter the height of this bag"
+            placeholder="Enter the height of this bag (inches)"
             type="text"
           />
         </FormGroup>
