@@ -9,7 +9,7 @@ import {
   NavLink,
 } from 'reactstrap';
 
-const Navbar = () => {
+const Nav_Component = () => {
   const [collapsed, setCollapsed] = useState(true);
 
   const toggleNavbar = () => setCollapsed(!collapsed);

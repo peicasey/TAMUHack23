@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Nav_Component from "./components/Nav_Component";
 // import Login from "./components/Login";
 // import Add_Bags from "./components/New_Trip";
 // import Add_Items from "./components/Add_Items";
@@ -11,7 +11,7 @@ function App() {
   
   return (
     <div>
-      <Navbar />
+      <Nav_Component />
       <div className="flex flex-col items-center mt-16">
         <h1 className="text-4xl text-center">
           CAN IT FLY?
