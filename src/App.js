@@ -5,13 +5,13 @@ import NavComponent from "./components/NavComponent";
 import Home from "./components/Home";
 // import Result from "./components/Result";
 import { Button } from 'reactstrap';
-import './app.css';
+import './App.css';
 import React from 'react';
 
 function App() {
   
   return (
-    <div className="app" dark>
+    <div className="app bg" dark>
       <NavComponent />
       <div className="flex flex-col items-center mt-16">
         <h1 className="text-4xl text-center">
