@@ -2,7 +2,7 @@
 import React from "react";
 
 // import CollapseTxt from "./CollapseTxt";
-
+import { Button, Collapse, Alert } from 'reactstrap';
 import will from '../assets/will_925x782.png'; // gives image path
 
 import '../App.css';
@@ -23,9 +23,73 @@ const Home = () => {
         </h2>
         <div>
             <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
-            {/* <CollapseTxt blurb={blurb1}/>
-            <CollapseTxt blurb={blurb2}/>
-            <CollapseTxt blurb={blurb3}/> */}
+            <div className="flex flex-col items-center">
+            <div>
+            <Button
+                color="info"
+                onClick={function noRefCheck(){}}
+                style={{
+                marginBottom: '1rem'
+                }}
+            >
+                WHY
+            </Button>
+            <Collapse horizontal>
+                <Alert
+                style={{
+                    width: '500px'
+                }}
+                >
+                {blurb3}
+                </Alert>
+            </Collapse>
+            </div>
+            <div>
+            <Button
+                color="info"
+                onClick={function noRefCheck(){}}
+                style={{
+                marginBottom: '1rem'
+                }}
+            >
+                CHOOSE
+            </Button>
+            <Collapse horizontal>
+                <Alert
+                style={{
+                    width: '500px'
+                }}
+                >
+                {blurb2}
+                </Alert>
+            </Collapse>
+            </div>
+            <div>
+            <Button
+                color="info"
+                onClick={function noRefCheck(){}}
+                style={{
+                marginBottom: '1rem'
+                }}
+            >
+                US?
+            </Button>
+            <Collapse horizontal>
+                <Alert
+                style={{
+                    width: '500px'
+                }}
+                >
+                {blurb3}
+                </Alert>
+            </Collapse>
+            </div>
+            </div>
+            <Button
+                color="info"
+                size="lg"
+                START A NEW TRIP NOW
+            ></Button>
         </div>
     </div>
   );
