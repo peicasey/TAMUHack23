@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 // import Add_Items from "./components/Add_Items";
 import Home from "./components/Home";
 // import Result from "./components/Result";
-
+import { Button } from 'reactstrap';
 import React from 'react';
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
       <button className="bg-black text-white p-2.5 w-fit mt-9 ">
         Get Started {value}
       </button>
+      <Button color="danger">Danger!</Button>
       </div>
     </div>
   );
