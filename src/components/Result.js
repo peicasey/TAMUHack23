@@ -34,7 +34,16 @@ const Result = () => {
                 value={39}
                 />
                 <div className="padded">
-                <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
+                    <div
+                    dangerouslySetInnerHTML={{
+                        __html: `<py-script>
+                        from datetime import datetime
+                        now = datetime.now()
+                        now.strftime("%m/%d/%Y, %H:%M:%S")
+                        </py-script>`,
+                    }}
+                    />
+                    <img src={will} alt="Will the Packmate" width="70" height="55" className="center"/>
                     <div className="flex flex-col items-center padded">
                     <Accordion open={open} toggle={toggle}>
                         <AccordionItem>
@@ -69,7 +78,7 @@ const Result = () => {
                     </Button>
                 </Form>
                 <div className="padded">
-                    <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
+                    <img src={will} alt="Will the Packmate" width="350" height="225" className="center"/>
                 </div>
             </div>
         </div>
