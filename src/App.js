@@ -20,7 +20,7 @@ function App() {
         <h2 className="text-4xl text-center">
           ASK PACKMATE AND FIND OUT
         </h2>
-        <div>
+        <div className="center">
         <NewTrip />
         <Home />
         <Button color="info" outline>
