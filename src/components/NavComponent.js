@@ -19,7 +19,7 @@ const NavComponent = () => {
     <div>
       <Navbar color="dark" dark>
         <NavbarBrand href="/" className="me-auto">
-          <img src={logo} alt="Logo image" />
+          <img src={logo} alt="CarryOn Logo" />
         </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="me-2" />
         <Collapse isOpen={!collapsed} navbar>

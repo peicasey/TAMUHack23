@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <div>
-        <img src={will} alt="Packmate image" />
+        <img src={will} alt="Will the Packmate" />
     </div>
   );
 };
