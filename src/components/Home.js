@@ -1,7 +1,7 @@
 // import React, { useState } from 'react';
 import React from 'react';
 
-import NewTrip from "./components/NewTrip";
+import NewTrip from "./NewTrip";
 import { Button } from 'reactstrap';
 
 import will from '../assets/will_925x782.png'; // gives image path
