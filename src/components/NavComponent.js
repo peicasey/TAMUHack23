@@ -30,6 +30,9 @@ const NavComponent = () => {
             <NavItem>
               <NavLink href='/newtrip'>New Trip</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href='/resources'>Resources</NavLink>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
