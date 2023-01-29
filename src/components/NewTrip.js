@@ -18,6 +18,7 @@ const NewTrip = () => {
 
   return (
     <div className="bg">
+      <h1>TRIP</h1>
       <Form>
         <div>
           <FormGroup>
