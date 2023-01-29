@@ -1,13 +1,20 @@
+// react
+import React from 'react';
+
+// components
 import NavComponent from "./components/NavComponent";
 // import Login from "./components/Login";
 import NewTrip from "./components/NewTrip";
 // import AddItems from "./components/AddItems";
 import Home from "./components/Home";
 import Result from "./components/Result";
+
+// modules
 // import { Button } from 'reactstrap';
 import { Routes, Route } from 'react-router-dom';
+
+// styling
 import './App.css';
-import React from 'react';
 
 function App() {
   
