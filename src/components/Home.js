@@ -5,7 +5,7 @@ import will from '../assets/Packmate.png'; // gives image path
 const Home = () => {
 
   return (
-    <div>
+    <div center>
         <img src={will} alt="Will the Packmate" />
     </div>
   );
