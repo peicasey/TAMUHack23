@@ -11,6 +11,7 @@ const Resources = () => {
             {' '}
             <a href= "https://www.tsa.gov/travel/security-screening">TSA Security Screening</a>
             {' '}
+            <p><br></br></p>
             <a href="https://www.tsa.gov/precheck/map">TSA Precheck Airports and Airlines</a>
             {' '}
             <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>

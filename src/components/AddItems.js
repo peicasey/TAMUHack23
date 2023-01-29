@@ -14,6 +14,9 @@ const AddItem = () => {
 
   return (
     <div className="bg">
+      <Button>
+        Add Another Bag
+      </Button>
       <h1>Bag</h1>
       <Form>
         <FormGroup>
@@ -69,10 +72,10 @@ const AddItem = () => {
             Checked
           </Label>
         </FormGroup>
+        <Button>
+          Add items to this bag!
+        </Button>
       </Form>
-      <Button>
-        Add Another Bag
-      </Button>
     </div>
   );
 };
