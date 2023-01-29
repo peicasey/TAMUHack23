@@ -1,5 +1,5 @@
 // import React, { useState } from 'react';
-import React from "react";
+import React, { useState } from "react";
 import { 
     Form,
     Button,
@@ -13,6 +13,16 @@ import '../App.css';
 import will from '../assets/will_925x782.png'; // gives image path
 
 const Result = () => {
+
+    const [open, setOpen] = useState('1');
+    const toggle = (id) => {
+        if (open === id) {
+        setOpen();
+        } else {
+        setOpen(id);
+        }
+    };
+
   return (
         <div className="bg">
             <h1>RESULTS</h1>
