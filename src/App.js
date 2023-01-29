@@ -12,7 +12,7 @@ import NoMatch from "./components/NoMatch";
 
 // modules
 // import { Button } from 'reactstrap';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes } from 'react-router-dom';
 
 // styling
 import './App.css';
@@ -29,9 +29,9 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home/ >}/>
-         <Route path='/newtrip' element={<NewTrip/ >}/>
-         <Route path='/result' element={<Result/ >}/>
-         <Route path="*" element={<NoMatch />} />
+          <Route path='/newtrip' element={<NewTrip/ >}/>
+          <Route path='/result' element={<Result/ >}/>
+          <Route path="*" element={<NoMatch />} />
         </Routes>
       </Router>
     </div>
