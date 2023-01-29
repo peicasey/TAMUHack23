@@ -32,36 +32,28 @@ const Home = () => {
         </h2>
         <div>
             <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center padded">
             <Accordion open={open} toggle={toggle}>
                 <AccordionItem>
-                <AccordionHeader targetId="1">Accordion Item 1</AccordionHeader>
+                <AccordionHeader targetId="1">How to Use PackMate</AccordionHeader>
                 <AccordionBody accordionId="1">
-                    <strong>This is the first item&#39;s accordion body.</strong>
-                    You can modify any of this with custom CSS or overriding our default
-                    variables. It&#39;s also worth noting that just about any HTML can
-                    go within the <code>.accordion-body</code>, though the transition
-                    does limit overflow.
+                    Select Start a New Trip Now to fill in your flight information, destination, 
+                    baggage dimensions, and let PackMate know what items you hope to bring! 
+                    PackMate will let you know what the relevant regulations are.
                 </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
-                <AccordionHeader targetId="2">Accordion Item 2</AccordionHeader>
+                <AccordionHeader targetId="2">What if my item does not show up?</AccordionHeader>
                 <AccordionBody accordionId="2">
-                    <strong>This is the second item&#39;s accordion body.</strong>
-                    You can modify any of this with custom CSS or overriding our default
-                    variables. It&#39;s also worth noting that just about any HTML can
-                    go within the <code>.accordion-body</code>, though the transition
-                    does limit overflow.
+                    If PackMate does not recognize your item, it will suggest possible 
+                    matches until you find what you're looking for!
                 </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
-                <AccordionHeader targetId="3">Accordion Item 3</AccordionHeader>
+                <AccordionHeader targetId="3">Don't see your Airport/Airline?</AccordionHeader>
                 <AccordionBody accordionId="3">
-                    <strong>This is the third item&#39;s accordion body.</strong>
-                    You can modify any of this with custom CSS or overriding our default
-                    variables. It&#39;s also worth noting that just about any HTML can
-                    go within the <code>.accordion-body</code>, though the transition
-                    does limit overflow.
+                    Suggest a new airport/airline to PackMate, and our devs will quickly add
+                    it to our roster! Thank you for using PackMate!
                 </AccordionBody>
                 </AccordionItem>
             </Accordion>
@@ -70,7 +62,7 @@ const Home = () => {
             <Button
                 color="info"
                 size="lg"
-                
+                href="/newtrip"
             >START A NEW TRIP NOW</Button>
             </div>
         </div>
