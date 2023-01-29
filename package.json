@@ -9,6 +9,7 @@
     "bootstrap": "^5.2.3",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "react-router-dom": "^6.8.0",
     "react-scripts": "3.4.0",
     "reactstrap": "^9.1.5"
   },
