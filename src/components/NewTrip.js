@@ -12,7 +12,7 @@ import {
 const NewTrip = () => {
 
   return (
-    <div>
+    <div className="bg">
       <Form>
         <div>
           <FormGroup>
