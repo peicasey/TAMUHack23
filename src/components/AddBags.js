@@ -73,19 +73,11 @@ const AddItem = () => {
             </Button>
           </ButtonGroup>
           <p>Selected: {rSelected}</p>
-          <Button
-            href="/items"
-            tag='a'>
-            Add items to this bag!
-          </Button>
+          <Button href="/items" tag='a' color="info">Add items to this bag!</Button>
         </div>
       </Form>
       <div className="padded">
-        <Button
-          href="/newtrip"
-          tag="a">
-          Back
-        </Button>
+        <Button href="/newtrip" tag="a" color="info">Back</Button>
       </div>
       </div>
     </div>

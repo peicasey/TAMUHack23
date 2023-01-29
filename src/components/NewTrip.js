@@ -68,15 +68,8 @@ const NewTrip = () => {
         </div>
         <div className="padded">
           <Button
-            href="/packing"
-            tag="a">
-            Start Packing!
-          </Button>
-          <Button
-            href="/"
-            tag="a">
-            Back
-          </Button>
+            href="/packing" tag="a" color="info">Start Packing!</Button>
+          <Button href="/" tag="a" color="info">Back</Button>
         </div>
       </Form>
       </div>

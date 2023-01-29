@@ -35,18 +35,8 @@ const AddItems = () => {
                   type="textarea"
                 />
               </FormGroup>
-              <Button
-                href="/result"
-                tag='a'
-                onClick={logValue}
-                >
-                See results
-              </Button>
-              <Button
-                href="/packing"
-                tag='a'>
-                Back
-              </Button>
+              <Button href="/result" tag='a' color="info" onClick={logValue}>See results</Button>
+              <Button href="/packing" tag='a' color="info">Back</Button>
             </Form>
             </div>
             

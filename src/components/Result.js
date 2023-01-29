@@ -78,7 +78,7 @@ const Result = () => {
                 </div>
                 <div>
                     <Form>
-                        <Button href="/" tag='a'>Back</Button>
+                        <Button href="/" tag='a' color="info">Back</Button>
                     </Form>
                 </div>
                 <div className="padded">
