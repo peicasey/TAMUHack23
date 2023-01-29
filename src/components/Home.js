@@ -9,9 +9,9 @@ import '../App.css';
 
 const Home = () => {
 
-    // var blurb1 = "Find out about what TSA Guidelines might apply to you!"
-    // var blurb2 = "Learn sneaky Airline Guidelienes!"
-    // var blurb3 = "Have a worry-free travel experience with luggage that has already been checked"
+    var blurb1 = "Find out about what TSA Guidelines might apply to you!"
+    var blurb2 = "Learn sneaky Airline Guidelienes!"
+    var blurb3 = "Have a worry-free travel experience with luggage that has already been checked"
 
   return (
     <div className="flex flex-col items-center mt-16 bg">
@@ -40,7 +40,7 @@ const Home = () => {
                     width: '500px'
                 }}
                 >
-                {blurb3}
+                {blurb1}
                 </Alert>
             </Collapse>
             </div>
