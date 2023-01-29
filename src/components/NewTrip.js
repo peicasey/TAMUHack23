@@ -8,6 +8,9 @@ import {
   Button
 } from 'reactstrap';
 
+import will from '../assets/will_925x782.png'; // gives image path
+
+
 import '../App.css';
 
 
@@ -63,6 +66,7 @@ const NewTrip = () => {
           Start Packing!
         </Button>
       </Form>
+      <img src={will} alt="Will the Packmate" width="700" height="550" className="center"/>
     </div>
   );
 };
