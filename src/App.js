@@ -8,18 +8,18 @@ import { Button } from 'reactstrap';
 import React from 'react';
 
 function App() {
-  const value = 'World';
+  
   return (
     <div>
       <Navbar />
       <div className="flex flex-col items-center mt-16">
         <h1 className="text-4xl text-center">
-          Tailwind CSS makes styling React components easier!
+          CAN IT FLY?
         </h1>
+        <h2>
+          ASK PACKMATE AND FIND OUT
+        </h2>
       <Home />
-      <button className="bg-black text-white p-2.5 w-fit mt-9 ">
-        Get Started {value}
-      </button>
       <Button color="danger">Danger!</Button>
       </div>
     </div>
