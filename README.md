@@ -4,7 +4,9 @@
 </br>
 <strong>Demo Link: </strong>https://youtu.be/AazcVu65bt8
 
-A React and Python based application to enable users to easily determine what items they can fly with and what the relevant regulations are on the items that they are bringing based on destination, airline, bag dimensions, carry-on/checking status, etcetera. Made for the American Airlines challenge, Microsoft Cloud Challenge, UI/UX challenge, and Best Overall Hack Challenge.
+A React and Python based application to enable users to easily determine what items they can fly with and what the relevant regulations are on the items that they are bringing based on destination, airline, bag dimensions, carry-on/checking status, etcetera. 
+
+Made for the American Airlines challenge, Microsoft Cloud Challenge, UI/UX challenge, and Best Overall Hack Challenge.
 
 ### Project Members (A-Z) - 
 ◉ Casey Pei | Microsoft Azure Deployment, Version Control, Front-End, Project-Planning, Reactstrap CSS, Graphic Designer (3D Modeled Logo) 
