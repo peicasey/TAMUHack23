@@ -9,13 +9,13 @@ A React and Python based application to enable users to easily determine what it
 Made for the American Airlines challenge, Microsoft Cloud Challenge, UI/UX challenge, and Best Overall Hack Challenge.
 
 ### Project Members (A-Z) - 
-◉ Casey Pei | Microsoft Azure Deployment, Version Control, Front-End, Project-Planning, Reactstrap CSS, Graphic Designer (3D Modeled Logo) 
+◉ <strong>Casey Pei</strong> | Microsoft Azure Deployment, Version Control, Front-End, Project-Planning, Reactstrap CSS, Graphic Designer (3D Modeled Logo) 
 </br>
-◉ Lily Tang | Lead Front-End Dev, UI/UX Designer (JSX, JS, HTML/CSS), Graphic Designer (CarryOn Logo) 
+◉ <strong>Lily Tang</strong> | Lead Front-End Dev, UI/UX Designer (JSX, JS, HTML/CSS), Graphic Designer (CarryOn Logo) 
 </br>
 ◉ <strong>Ryan Kabir</strong> | Full-Stack Dev (Python HTML-file Key-Terms Parser, Selenium Webscraper Template, React Components), Project Planning & Execution, UI/UX (Figma, YouTube, DevPost) 
 </br>
-◉ Yuqian Cao | Lead Back-End Dev, Python (Selenium Webscraper, Python HTML-file Key-Terms Parser)
+◉ <strong>Yuqian Cao<strong> | Lead Back-End Dev, Python (Selenium Webscraper, Python HTML-file Key-Terms Parser)
 
 --
 
